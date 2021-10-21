@@ -1,19 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Sunnyside agency landing page</title>
-</head>
-<body>
-  
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://github.com/leonardo9245/FrontendMentor-desafio" target="_blank">Leonartdo Reis</a>.
-  </div>
-</body>
+    <title>Frontend Mentor | Sunnyside agency landing page</title>
+  </head>
+  <body>
+    <header id="header">
+      <nav class="container">
+        <h2 class="logo">sunnyside</h2>
+        <ul id="menu-container" class="menu">
+          <li><a href="#header" class="menu-opt">About</a></li>
+          <li><a href="#services" class="menu-opt">Services</a></li>
+          <li><a href="#Projects" class="menu-opt">Projects</a></li>
+          <li><a href="#contact" class="contact-button">Contact</a></li>
+        </ul>
+        <div class="toggle open-menu">
+          <img src="/images/icon-hamburger.svg" alt="#" />
+        </div>
+      </nav>
+      <div class="initial">
+        <h1>We Are Creatives</h1>
+        <img src="/images/icon-arrow-down.svg" alt="#" />
+      </div>
+    </header>
+    <main>
+      <section id="services">
+        <div class="container-services">
+          <div class="service-1">
+            <figure class="image">
+              <img src="/images/desktop/image-transform.jpg" alt="#" />
+            </figure>
+            <div class="detail">
+              <h3>Transform your brand</h3>
+              <p>
+                We are a full-service creative agency specializing in helping
+                brands grow fast. Engage your clients through compelling visuals
+                that do most of the marketing for you.
+              </p>
+              <div>
+                <a class="button" href="#">Learn more</a>
+              </div>
+            </div>
+          </div>
+          <div class="service-2">
+            <figure class="image">
+              <img src="/images/desktop/image-stand-out.jpg" alt="#" />
+            </figure>
+            <div class="detail">
+              <h3>Stand out to the right audience</h3>
+              <p>
+                Using a collaborative formula of designers, researchers,
+                photographers, videographers, and copywriters, we’ll build and
+                extend your brand in digital places.
+              </p>
+              <div>
+                <a class="button red-color" href="#">Learn more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="Projects">
+        <div class="projects-container">
+          <div class="design">
+            <div class="details">
+              <h3>Graphic design</h3>
+              <p>
+                Great design makes you memorable. We deliver artwork that
+                underscores your brand message and captures potential clients’
+                attention.
+              </p>
+            </div>
+          </div>
+          <div class="photo">
+            <div class="details">
+              <h3>Photography</h3>
+              <p>
+                Increase your credibility by getting the most stunning,
+                high-quality photos that improve your business image.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="testimonials">
+        <h3 class="title">Client testimonials</h3>
+        <div class="client-testimonials">
+          <blockquote>
+            <figure>
+              <img src="/images/image-emily.jpg" alt="#" />
+            </figure>
+            <p>
+              We put our trust in Sunnyside and they delivered, making sure our
+              needs were met and deadlines were always hit.
+            </p>
+            <cite>
+              <h3>Emily R.</h3>
+              <p>Marketing Director</p>
+            </cite>
+          </blockquote>
+          <blockquote>
+            <figure>
+              <img src="/images/image-thomas.jpg" alt="#" />
+            </figure>
+            <p>
+              Sunnyside’s enthusiasm coupled with their keen interest in our
+              brand’s success made it a satisfying and enjoyable experience.
+            </p>
+            <cite>
+              <h3>Thomas S.</h3>
+              <p>Chief Operating Officer</p>
+            </cite>
+          </blockquote>
+          <blockquote>
+            <figure>
+              <img src="/images/image-jennie.jpg" alt="#" />
+            </figure>
+            <p>
+              Incredible end result! Our sales increased over 400% when we
+              worked with Sunnyside. Highly recommended!
+            </p>
+            <cite>
+              <h3>Jennie F.</h3>
+              <p>Business Owner</p>
+            </cite>
+          </blockquote>
+        </div>
+      </section>
+      <section>
+        <figure class="end-page">
+          <img src="/images/desktop/image-gallery-milkbottles.jpg" alt="#" />
+          <img src="/images/desktop/image-gallery-orange.jpg" alt="#" />
+          <img src="/images/desktop/image-gallery-cone.jpg" alt="#" />
+          <img src="/images/desktop/image-gallery-sugarcubes.jpg" alt="#" />
+        </figure>
+      </section>
+    </main>
+    <footer id="contact">
+      <div class="logo logo-footer">sunnyside</div>
+      <div class="buttons">
+        <a href="#header">About</a>
+        <a href="#services">Services</a>
+        <a href="#Projects">Projects</a>
+      </div>
+      <div class="icons">
+        <a href="#"><img src="/images/icon-facebook.svg" alt="#" /></a>
+        <a href="#"><img src="/images/icon-instagram.svg" alt="#" /></a>
+        <a href="#"><img src="/images/icon-twitter.svg" alt="#" /></a>
+        <a href="#"><img src="/images/icon-pinterest.svg" alt="#" /></a>
+      </div>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a
+          href="https://github.com/leonardo9245/FrontendMentor-desafio"
+          target="_blank"
+          >Leonartdo Reis</a
+        >.
+      </div>
+    </footer>
+    <a href="#header" class="back-to-top"
+      ><img src="/images/up-arrow.png" alt="#"
+    /></a>
+  </body>
+  <script src="script.js"></script>
 </html>
