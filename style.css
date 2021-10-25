@@ -33,7 +33,7 @@
   min-height: 600px;
 }
 
-.container {
+.header-container {
   display: flex;
   padding: 1rem 1.5rem;
 }
@@ -58,7 +58,7 @@
   flex-direction: column;
   gap: 2rem;
   text-align: center;
-  background-color: azure;
+  background-color: #fff;
   padding: 3rem;
   margin-top: 3rem;
   right: 1.5rem;
@@ -145,7 +145,7 @@
   text-align: center;
 }
 
-.detail h3 {
+.detail strong {
   font: 900 2rem 'Fraunces', sans-serif;
   margin-bottom: 1.5rem;
 }
@@ -195,7 +195,7 @@
   text-align: center;
 }
 
-.details h3 {
+.details strong {
   font: 900 2rem 'Fraunces', sans-serif;
   color: var(--very-dark-grayish-blue);
 }
@@ -253,12 +253,12 @@ blockquote {
   color: var(--very-dark-grayish-blue);
 }
 
-cite h3 {
+.cite cite {
   font: 900 1.2rem 'Fraunces', sans-serif;
   margin-bottom: 0.5rem;
 }
 
-.client-testimonials cite p {
+.client-testimonials .cite p {
   margin: 0;
   font: 600 1rem 'Barlow', sans-serif;
   color: var(--grayish-blue);
@@ -341,9 +341,10 @@ cite h3 {
     display: none;
   }
 
-  .container {
+  .header-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 2rem;
   }
 
