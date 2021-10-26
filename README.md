@@ -13,7 +13,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/sunnysideagencylandingpagemain-fNXdDnCbz#comment-6177e3d34de4432e61ab2136)
+- Solution URL: [https://www.frontendmentor.io/solutions/sunnysideagencylandingpagemain-fNXdDnCbz#comment-6177e3d34de4432e61ab2136]
 
 ## My process
 
@@ -31,4 +31,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/leonardo9245)
+- Frontend Mentor - [https://www.frontendmentor.io/profile/leonardo9245]
